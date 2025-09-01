@@ -21,7 +21,7 @@
 3. Créez un nouveau projet et sélectionnez votre repo
 4. Configurez les variables d'environnement :
    ```
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/midadcom_db?retryWrites=true&w=majority
+   MONGODB_URI=mongodb+srv://midadcom:midadcom@cluster.mongodb.net/midadcom_db?retryWrites=true&w=majority
    JWT_SECRET=your_super_secure_jwt_secret_key_here
    NODE_ENV=production
    PORT=5000
